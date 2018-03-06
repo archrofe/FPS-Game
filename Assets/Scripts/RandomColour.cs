@@ -18,10 +18,12 @@ public class RandomColour : MonoBehaviour
     {
 
     }
+
     void RandomMat()
     {
         int randomMatIndex = Random.Range(0, 3);
         rend = GetComponent<Renderer>();
+
         rend.material = mats[randomMatIndex];
     }
 }
