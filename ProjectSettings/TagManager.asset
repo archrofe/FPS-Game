@@ -9,6 +9,7 @@ TagManager:
   - Green
   - Blue
   - Baggage
+  - Target
   layers:
   - Default
   - TransparentFX
